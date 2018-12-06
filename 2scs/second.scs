@@ -1,0 +1,126 @@
+sc_node_norole_relation -> nrel_spread;;
+
+
+nrel_spread => nrel_system_idtf: [nrel_spread];;
+nrel_spread => nrel_main_idtf: [распространение*](*<- lang_ru;;*);;
+nrel_spread => nrel_idtf: [быть распространенным*](*<- lang_ru;;*);;
+nrel_spread => nrel_idtf: [spread*](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: nrel_spread;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Распространение вида - область обитания и развития определенного таксона или типа сообщества животных и растений](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(распространение*)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+            -> concept_taxon;;
+            -> concept_species;;
+        *);;
+*);;
+
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: nrel_spread;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Область распространения вида представляет собой сочетание видовых требований с определенной суммой экологических требований на обширной территории или на акватории](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(распространение*)](*<- lang_ru;;*);;
+*);;
+inter1<=nrel_combination: ...
+(*
+	->concept_territory;;
+	->concept_aquatory;;
+*);;
+nrel_spread => nrel_definitional_domain: ...
+(*
+	->concept_taxon;;
+	->inter1;;
+*);;
+nrel_spread => nrel_first_domain: concept_taxon;;
+nrel_spread => nrel_second_domain: inter1;;
+
+
+parameter -> arity;;
+arity -> binary_relation;;
+binary_relation -> nrel_spread;;
+binary_relation => nrel_measurement: 2;;
+number -> 2;;
+
+
+relation => nrel_inclusion: oriented_relation;;
+relation => nrel_inclusion: binary_relation;;
+
+binary_relation => nrel_inclusion: antireflexive_relation;;
+binary_relation => nrel_inclusion: antitransitive_relation;;
+binary_relation => nrel_inclusion: antisymmetric_relation;;
+
+antireflexive_relation -> nrel_spread;;
+antitransitive_relation -> nrel_spread;;
+antisymmetric_relation -> nrel_spread;;
+
+oriented_relation -> nrel_spread;;
+
+
+///////////////////////////////////////////////////
+
+sc_node_not_relation -> concept_amphibians;;
+
+
+concept_amphibians => nrel_system_idtf: [concept_amphibians];;
+concept_amphibians => nrel_main_idtf: [земноводные](*<- lang_ru;;*);;
+concept_amphibians => nrel_idtf: [амфибии](*<- lang_ru;;*); [множество земноводных](*<- lang_ru;;*); [множество амфибий](*<- lang_ru;;*);;
+concept_amphibians => nrel_main_idtf: [amphibians](*<- lang_en;;*);;
+
+concept_four_legged=>nrel_inclusion: concept_amnionts;;
+concept_amphibians<=nrel_difference_of_sets: ...
+(*
+	->rrel_1: concept_vertebrates;;
+	->rrel_2:concept_amnionts;; 
+*);;
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_amphibians;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Земноводные - класс холоднокровных, исходно четвероногих позвоночных, обитающих, как правило, в пресной воде либо поблизости от ее.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(земноводные)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+			->concept_coldblooded;;
+			->concept_four_legged;;
+			->concept_vertebrates;;
+        *);;
+*);;
+
+concept_amphibians -> rrel_example: jaba_#2;;
+
+
+statement -> ...
+(* 
+    -> rrel_key_sc_element: concept_amphibians;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Размножение большинства видов земноводных происходит в водной среде, а взрослые особи обитают на суше](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(размножение, водная среда, вид)](*<- lang_ru;;*);;
+*);;
+
+
+
+concept_amphibians <-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+[Рис. (амфибия)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->"file://concept_amphibians.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
