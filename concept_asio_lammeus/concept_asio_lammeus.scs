@@ -1,5 +1,3 @@
-concept_asio_flammeus => nrel_system_idtf: [concept_asio_flammeus];;
-
 concept_asio_flammeus=> nrel_main_idtf: [болотная сова](*<- lang_ru;;*); [asio flammeus](*<- lang_lat;;*); [балотная сава](*<- lang_bel;;*);;
 
 concept_asio_flammeus <-rrel_key_sc_element:...

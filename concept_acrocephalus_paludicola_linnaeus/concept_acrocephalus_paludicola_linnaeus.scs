@@ -1,5 +1,3 @@
-concept_acrocephalus_paludicola_linnaeus => nrel_system_idtf: [concept_acrocephalus_paludicola_linnaeus];;
-
 concept_acrocephalus_paludicola_linnaeus=> nrel_main_idtf: [вертлявая камышевка](*<- lang_ru;;*); [acrocephalus paludicola linnaeus](*<- lang_lat;;*); [вяртлявая чарацянка](*<- lang_bel;;*);;
 
 concept_acrocephalus_paludicola_linnaeus <-rrel_key_sc_element:...

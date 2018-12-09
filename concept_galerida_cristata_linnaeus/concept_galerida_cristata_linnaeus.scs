@@ -1,5 +1,3 @@
-concept_galerida_cristata_linnaeus => nrel_system_idtf: [concept_galerida_cristata_linnaeus];;
-
 concept_galerida_cristata_linnaeus=> nrel_main_idtf: [хохлатый жаворонок](*<- lang_ru;;*); [galerida cristata linnaeus](*<- lang_lat;;*); [чубаты жаваранак](*<- lang_bel;;*);;
 concept_galerida_cristata_linnaeus => nrel_idtf: [жаўрук-смяцюх](*<- lang_bel;;*);;
 

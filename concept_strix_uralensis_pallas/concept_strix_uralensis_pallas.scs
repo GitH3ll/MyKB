@@ -1,5 +1,3 @@
-concept_strix_uralensis_pallas => nrel_system_idtf: [concept_strix_uralensis_pallas];;
-
 concept_strix_uralensis_pallas=> nrel_main_idtf: [длиннохвостая неясыть](*<- lang_ru;;*); [strix uralensis pallas](*<- lang_lat;;*); [даўгахвостая кугакаўка](*<- lang_bel;;*);;
 concept_strix_uralensis_pallas => nrel_idtf: [даўгахвостая няясыць](*<- lang_bel;;*);;
 

@@ -1,5 +1,3 @@
-concept_coracias_garrulus_linnaeus => nrel_system_idtf: [concept_coracias_garrulus_linnaeus];;
-
 concept_coracias_garrulus_linnaeus=> nrel_main_idtf: [сизоворонка](*<- lang_ru;;*); [coracias garrulus linnaeus](*<- lang_lat;;*); [сіні сіваграк](*<- lang_bel;;*);;
 concept_coracias_garrulus_linnaeus => nrel_idtf: [сіваваронка](*<- lang_bel;;*);;
 concept_coracias_garrulus_linnaeus => nrel_idtf: [сіваграк](*<- lang_bel;;*);;

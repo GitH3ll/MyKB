@@ -1,5 +1,3 @@
-concept_glaucidium_passerinum => nrel_system_idtf: [concept_glaucidium_passerinum];;
-
 concept_glaucidium_passerinum=> nrel_main_idtf: [воробьиный сыч](*<- lang_ru;;*); [glaucidium passerinum](*<- lang_lat;;*); [вераб’іны сычык](*<- lang_bel;;*);;
 concept_glaucidium_passerinum => nrel_idtf: [вераб’іны сыч](*<- lang_bel;;*);;
 

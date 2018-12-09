@@ -1,5 +1,3 @@
-concept_alcedo_atthis => nrel_system_idtf: [concept_alcedo_atthis];;
-
 concept_alcedo_atthis=> nrel_main_idtf: [обыкновенный зимородок](*<- lang_ru;;*); [alcedo atthis](*<- lang_lat;;*); [звычайны зімародак](*<- lang_bel;;*);;
 
 concept_alcedo_atthis <-rrel_key_sc_element:...

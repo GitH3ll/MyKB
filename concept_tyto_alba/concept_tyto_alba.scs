@@ -1,5 +1,3 @@
-concept_tyto_alba => nrel_system_idtf: [concept_tyto_alba];;
-
 concept_tyto_alba=> nrel_main_idtf: [сипуха](*<- lang_ru;;*); [tyto alba](*<- lang_lat;;*); [сіпуха](*<- lang_bel;;*);;
 
 concept_tyto_alba <-rrel_key_sc_element:...

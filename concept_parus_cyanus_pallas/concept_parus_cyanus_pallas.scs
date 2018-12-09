@@ -1,5 +1,3 @@
-concept_parus_cyanus_pallas => nrel_system_idtf: [concept_parus_cyanus_pallas];;
-
 concept_parus_cyanus_pallas=> nrel_main_idtf: [белая лазоревка](*<- lang_ru;;*); [parus cyanus pallas](*<- lang_lat;;*); [белая сініца](*<- lang_bel;;*);;
 concept_parus_cyanus_pallas => nrel_idtf: [белая блакітніца](*<- lang_bel;;*);;
 

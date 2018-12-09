@@ -1,5 +1,3 @@
-concept_athene_noctua => nrel_system_idtf: [concept_athene_noctua];;
-
 concept_athene_noctua=> nrel_main_idtf: [домовый сыч](*<- lang_ru;;*); [athene noctua](*<- lang_lat;;*); [сыч-сіпель](*<- lang_bel;;*);;
 concept_athene_noctua => nrel_idtf: [дамавы сыч](*<- lang_bel;;*);;
 

@@ -1,5 +1,3 @@
-concept_bubo_bubo => nrel_system_idtf: [concept_bubo_bubo];;
-
 concept_bubo_bubo=> nrel_main_idtf: [филин](*<- lang_ru;;*); [bubo bubo](*<- lang_lat;;*); [пугач](*<- lang_bel;;*);;
 
 concept_bubo_bubo <-rrel_key_sc_element:...

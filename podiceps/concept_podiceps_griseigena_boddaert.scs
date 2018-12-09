@@ -1,5 +1,3 @@
-concept_podiceps_griseigena_boddaert => nrel_system_idtf: [concept_podiceps_griseigena_boddaert];;
-
 concept_podiceps_griseigena_boddaert => nrel_main_idtf: [серощекая поганка](*<- lang_ru;;*); [podiceps griseigena boddaert](*<- lang_lat;;*); [шэрашчокая коўра](*<- lang_bel;;*);;
 concept_podiceps_griseigena_boddaert => nrel_idtf: [шэрашчокая паганка](*<- lang_bel;;*);;
 

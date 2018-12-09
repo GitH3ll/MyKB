@@ -1,5 +1,3 @@
-concept_ficedula_albicollis_temminck => nrel_system_idtf: [concept_ficedula_albicollis_temminck];;
-
 concept_ficedula_albicollis_temminck=> nrel_main_idtf: [мухоловка-белошейка](*<- lang_ru;;*); [ficedula albicollis temminck](*<- lang_lat;;*); [валасяніца-белашыйка](*<- lang_bel;;*);;
 concept_ficedula_albicollis_temminck => nrel_idtf: [мухалоўка-белашыйка](*<- lang_bel;;*);;
 

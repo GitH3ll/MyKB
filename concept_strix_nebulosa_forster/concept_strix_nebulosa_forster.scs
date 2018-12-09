@@ -1,5 +1,3 @@
-concept_strix_nebulosa_forster => nrel_system_idtf: [concept_strix_nebulosa_forster];;
-
 concept_strix_nebulosa_forster=> nrel_main_idtf: [бородатая неясыть](*<- lang_ru;;*); [strix nebulosa forster](*<- lang_lat;;*); [барадатая кугакаўка](*<- lang_bel;;*);;
 concept_strix_nebulosa_forster => nrel_idtf: [барадатая няясыць](*<- lang_bel;;*);;
 

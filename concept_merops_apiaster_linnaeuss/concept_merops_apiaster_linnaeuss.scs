@@ -1,5 +1,3 @@
-concept_merops_apiaster_linnaeuss => nrel_system_idtf: [concept_merops_apiaster_linnaeuss];;
-
 concept_merops_apiaster_linnaeuss=> nrel_main_idtf: [золотистая щурка](*<- lang_ru;;*); [merops apiaster linnaeus](*<- lang_lat;;*); [шчурка-пчалаедка](*<- lang_bel;;*);;
 concept_merops_apiaster_linnaeuss => nrel_idtf: [залацістая шчурка](*<- lang_bel;;*);;
 

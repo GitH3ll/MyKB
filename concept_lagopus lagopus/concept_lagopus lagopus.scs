@@ -1,5 +1,3 @@
-concept_lagopus_lagopus => nrel_system_idtf: [concept_lagopus lagopus];;
-
 concept_lagopus_lagopus => nrel_main_idtf: [белая куропатка](*<- lang_ru;;*); [lagopus lagopus](*<- lang_lat;;*); [пардва](*<- lang_bel;;*);;
 concept_lagopus_lagopus => nrel_idtf: [белая курапатка](*<- lang_bel;;*);;
 

@@ -1,5 +1,3 @@
-concept_lanius_minor_gmelin => nrel_system_idtf: [concept_lanius_minor_gmelin];;
-
 concept_lanius_minor_gmelin=> nrel_main_idtf: [чернолобый сорокопут](*<- lang_ru;;*); [lanius minor gmelin](*<- lang_lat;;*); [чарналобы грычун](*<- lang_bel;;*);;
 concept_lanius_minor_gmelin => nrel_idtf: [чарналобы саракуш](*<- lang_bel;;*);;
 

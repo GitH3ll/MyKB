@@ -1,5 +1,3 @@
-concept_anthus_campestris_linnaeus => nrel_system_idtf: [concept_anthus_campestris_linnaeus];;
-
 concept_anthus_campestris_linnaeus=> nrel_main_idtf: [полевой конек](*<- lang_ru;;*); [anthus campestris linnaeus](*<- lang_lat;;*); [палявы свірстун](*<- lang_bel;;*);;
 concept_anthus_campestris_linnaeus => nrel_idtf: [палявы конік](*<- lang_bel;;*);;
 
