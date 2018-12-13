@@ -12,6 +12,15 @@ concept_ficedula_albicollis_temminck <-rrel_key_sc_element:...
 *);;
 *);;
 
+concept_species -> concept_ficedula_albicollis_temminck;;
+subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_ficedula_albicollis_temminck;;
+nrel_upload_date -> ...
+	(*
+	-> rrel_1: Red_list;; 
+	-> rrel_2: concept_bubo_bubo;;
+	-> rrel_3: ... (*-> rrel_number_of_year: 1981 (*<- number;;*);;*);;
+	*);;
+
 //пояснения
 concept_ficedula_albicollis_temminck <- rrel_key_sc_element:
 	...
