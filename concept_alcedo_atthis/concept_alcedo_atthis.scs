@@ -10,7 +10,7 @@ concept_alcedo_atthis <-rrel_key_sc_element:...
 ->"file://concept_alcedo_atthis.jpg"(*=>nrel_format:format_jpg;;*);;
 *);;
 *);;
-
+concept_animalia -> concept_alcedo_atthis;;
 concept_species -> concept_alcedo_atthis;;
 subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_alcedo_atthis;;
 nrel_upload_date -> ...

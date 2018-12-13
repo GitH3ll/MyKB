@@ -12,6 +12,7 @@ concept_glaucidium_passerinum <-rrel_key_sc_element:...
 *);;
 *);;
 
+concept_animalia -> concept_glaucidium_passerinum;;
 concept_species -> concept_glaucidium_passerinum;;
 subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_glaucidium_passerinum;;
 nrel_upload_date -> ...

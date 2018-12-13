@@ -1,28 +1,29 @@
-concept_merops_apiaster_linnaeuss=> nrel_main_idtf: [золотистая щурка](*<- lang_ru;;*); [merops apiaster linnaeus](*<- lang_lat;;*); [шчурка-пчалаедка](*<- lang_bel;;*);;
-concept_merops_apiaster_linnaeuss => nrel_idtf: [залацістая шчурка](*<- lang_bel;;*);;
+concept_merops_apiaster=> nrel_main_idtf: [золотистая щурка](*<- lang_ru;;*); [merops apiaster linnaeus](*<- lang_lat;;*); [шчурка-пчалаедка](*<- lang_bel;;*);;
+concept_merops_apiaster => nrel_idtf: [залацістая шчурка](*<- lang_bel;;*);;
 
-concept_merops_apiaster_linnaeuss <-rrel_key_sc_element:...
+concept_merops_apiaster <-rrel_key_sc_element:...
 (*
 <-illustration;;
 =>nrel_main_idtf:
 [Рис. (золотистая щурка)](*<-lang_ru;;*);;
 <=nrel_sc_text_translation:...
 (*
-->"file://concept_merops_apiaster_linnaeuss.jpg"(*=>nrel_format:format_jpg;;*);;
+->"file://concept_merops_apiaster.jpg"(*=>nrel_format:format_jpg;;*);;
 *);;
 *);;
 
-concept_species -> concept_merops_apiaster_linnaeuss;;
-subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_merops_apiaster_linnaeuss;;
+concept_animalia -> concept_merops_apiaster;;
+concept_species -> concept_merops_apiaster;;
+subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_merops_apiaster;;
 nrel_upload_date -> ...
 	(*
 	-> rrel_1: Red_list;; 
-	-> rrel_2: concept_merops_apiaster_linnaeuss;;
+	-> rrel_2: concept_merops_apiaster;;
 	-> rrel_3: ... (*-> rrel_number_of_year: 1993 (*<- number;;*);;*);;
 	*);;
 
 //пояснения
-concept_merops_apiaster_linnaeuss <- rrel_key_sc_element:
+concept_merops_apiaster <- rrel_key_sc_element:
 	...
 	(*
 	<- explanation;;
@@ -105,7 +106,7 @@ concept_merops_apiaster_linnaeuss <- rrel_key_sc_element:
 	*);;
 
 //характеристики
-concept_merops_apiaster_linnaeuss <= nrel_spread: ... 
+concept_merops_apiaster <= nrel_spread: ... 
 	(*
     <= nrel_combination: ... 
 		(*
@@ -113,7 +114,7 @@ concept_merops_apiaster_linnaeuss <= nrel_spread: ...
 		*);;
 	*);;
 //части тела
-concept_merops_apiaster_linnaeuss => nrel_part: 
+concept_merops_apiaster => nrel_part: 
 	...
 	(*
 	<= nrel_inclusion: concept_thin; concept_beak; black; grey;;
@@ -143,7 +144,7 @@ concept_merops_apiaster_linnaeuss => nrel_part:
 	<= nrel_inclusion: concept_tail; blue; green;;
 	*);;
 //размеры и вес
-concept_merops_apiaster_linnaeuss <= nrel_inclusion: 
+concept_merops_apiaster <= nrel_inclusion: 
 	[24-30 см]
 	(*
 	<- interval_value;;
@@ -165,8 +166,8 @@ concept_merops_apiaster_linnaeuss <= nrel_inclusion:
 	[0.060 кг] <- weight; exact_value;;
 	[0.060 кг] -> .kilogram: 0.060 (* <- number;;*);;
 //категория охраны и количество
-concept_merops_apiaster_linnaeuss <= nrel_inclusion: concept_3_protection_category;;
-concept_merops_apiaster_linnaeuss <= nrel_strength: [80 шт]
+concept_merops_apiaster <= nrel_inclusion: concept_3_protection_category;;
+concept_merops_apiaster <= nrel_strength: [80 шт]
 	(*
 	<- value;;
 	<= nrel_value: ...

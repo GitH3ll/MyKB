@@ -1,21 +1,22 @@
-concept_panurus_biarmicus_temminck=> nrel_main_idtf: [усатая синица](*<- lang_ru;;*); [panurus biarmicus temminck](*<- lang_lat;;*); [вусатая сініца](*<- lang_bel;;*);;
+concept_panurus_biarmicus=> nrel_main_idtf: [усатая синица](*<- lang_ru;;*); [panurus biarmicus temminck](*<- lang_lat;;*); [вусатая сініца](*<- lang_bel;;*);;
 
-concept_panurus_biarmicus_temminck <-rrel_key_sc_element:...
+concept_panurus_biarmicus <-rrel_key_sc_element:...
 (*
 <-illustration;;
 =>nrel_main_idtf:
 [Рис. (усатая синица)](*<-lang_ru;;*);;
 <=nrel_sc_text_translation:...
 (*
-->"file://concept_panurus_biarmicus_temminck.jpg"(*=>nrel_format:format_jpg;;*);;
+->"file://concept_panurus_biarmicus.jpg"(*=>nrel_format:format_jpg;;*);;
 *);;
 *);;
 
-concept_species -> concept_panurus_biarmicus_temminck;;
-subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_panurus_biarmicus_temminck;;
+concept_animalia -> concept_panurus_biarmicus;;
+concept_species -> concept_panurus_biarmicus;;
+subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_panurus_biarmicus;;
 
 //пояснения
-concept_panurus_biarmicus_temminck <- rrel_key_sc_element:
+concept_panurus_biarmicus <- rrel_key_sc_element:
 	...
 	(*
 	<- explanation;;
@@ -98,7 +99,7 @@ concept_panurus_biarmicus_temminck <- rrel_key_sc_element:
 	*);;
 
 //характеристики
-concept_panurus_biarmicus_temminck <= nrel_spread: ... 
+concept_panurus_biarmicus <= nrel_spread: ... 
 	(*
     <= nrel_combination: ... 
 		(*
@@ -106,7 +107,7 @@ concept_panurus_biarmicus_temminck <= nrel_spread: ...
 		*);;
 	*);;
 //части тела
-concept_panurus_biarmicus_temminck => nrel_part: 
+concept_panurus_biarmicus => nrel_part: 
 	...
 	(*
 	<= nrel_inclusion: concept_short; concept_beak; orange; yellow;;
@@ -136,7 +137,7 @@ concept_panurus_biarmicus_temminck => nrel_part:
 	<= nrel_inclusion: concept_tail; red; ginger;;
 	*);;
 //размеры и вес
-concept_panurus_biarmicus_temminck <= nrel_inclusion: 
+concept_panurus_biarmicus <= nrel_inclusion: 
 	[15-18 см]
 	(*
 	<- interval_value;;
@@ -158,8 +159,8 @@ concept_panurus_biarmicus_temminck <= nrel_inclusion:
 	[0,020 кг] <- weight; exact_value;;
 	[0.020 кг] -> .kilogram:0.020 (* <- number;;*);;
 //категория охраны и количество
-concept_panurus_biarmicus_temminck <= nrel_inclusion: concept_4_protection_category;;
-concept_panurus_biarmicus_temminck <= nrel_strength: [100 шт]
+concept_panurus_biarmicus <= nrel_inclusion: concept_4_protection_category;;
+concept_panurus_biarmicus <= nrel_strength: [100 шт]
 	(*
 	<- value;;
 	<= nrel_value: ...

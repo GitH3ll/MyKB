@@ -1,28 +1,29 @@
-concept_parus_cyanus_pallas=> nrel_main_idtf: [белая лазоревка](*<- lang_ru;;*); [parus cyanus pallas](*<- lang_lat;;*); [белая сініца](*<- lang_bel;;*);;
-concept_parus_cyanus_pallas => nrel_idtf: [белая блакітніца](*<- lang_bel;;*);;
+concept_parus_cyanus=> nrel_main_idtf: [белая лазоревка](*<- lang_ru;;*); [parus cyanus pallas](*<- lang_lat;;*); [белая сініца](*<- lang_bel;;*);;
+concept_parus_cyanus => nrel_idtf: [белая блакітніца](*<- lang_bel;;*);;
 
-concept_parus_cyanus_pallas <-rrel_key_sc_element:...
+concept_parus_cyanus <-rrel_key_sc_element:...
 (*
 <-illustration;;
 =>nrel_main_idtf:
 [Рис. (белая лазоревка)](*<-lang_ru;;*);;
 <=nrel_sc_text_translation:...
 (*
-->"file://concept_parus_cyanus_pallas.jpg"(*=>nrel_format:format_jpg;;*);;
+->"file://concept_parus_cyanus.jpg"(*=>nrel_format:format_jpg;;*);;
 *);;
 *);;
 
-concept_species -> concept_parus_cyanus_pallas;;
-subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_parus_cyanus_pallas;;
+concept_animalia -> concept_parus_cyanus;;
+concept_species -> concept_parus_cyanus;;
+subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_parus_cyanus;;
 nrel_upload_date -> ...
 	(*
 	-> rrel_1: Red_list;; 
-	-> rrel_2: concept_parus_cyanus_pallas;;
+	-> rrel_2: concept_parus_cyanus;;
 	-> rrel_3: ... (*-> rrel_number_of_year: 1981 (*<- number;;*);;*);;
 	*);;
 
 //пояснения
-concept_parus_cyanus_pallas <- rrel_key_sc_element:
+concept_parus_cyanus <- rrel_key_sc_element:
 	...
 	(*
 	<- explanation;;
@@ -105,7 +106,7 @@ concept_parus_cyanus_pallas <- rrel_key_sc_element:
 	*);;
 
 //характеристики
-concept_parus_cyanus_pallas <= nrel_spread: ... 
+concept_parus_cyanus <= nrel_spread: ... 
 	(*
     <= nrel_combination: ... 
 		(*
@@ -113,7 +114,7 @@ concept_parus_cyanus_pallas <= nrel_spread: ...
 		*);;
 	*);;
 //части тела
-concept_parus_cyanus_pallas => nrel_part: 
+concept_parus_cyanus => nrel_part: 
 	...
 	(*
 	<= nrel_inclusion: concept_short; concept_beak; black;;
@@ -143,7 +144,7 @@ concept_parus_cyanus_pallas => nrel_part:
 	<= nrel_inclusion: concept_tail; blue;;
 	*);;
 //размеры и вес
-concept_parus_cyanus_pallas <= nrel_inclusion: 
+concept_parus_cyanus <= nrel_inclusion: 
 	[13-14 см]
 	(*
 	<- interval_value;;
@@ -165,8 +166,8 @@ concept_parus_cyanus_pallas <= nrel_inclusion:
 	[0.012 кг] <- weight; exact_value;;
 	[0.012 кг] -> .kilogram: 0.012 (* <- number;;*);;
 //категория охраны и количество
-concept_parus_cyanus_pallas <= nrel_inclusion: concept_3_protection_category;;
-concept_parus_cyanus_pallas <= nrel_strength: [1400 шт]
+concept_parus_cyanus <= nrel_inclusion: concept_3_protection_category;;
+concept_parus_cyanus <= nrel_strength: [1400 шт]
 	(*
 	<- value;;
 	<= nrel_value: ...

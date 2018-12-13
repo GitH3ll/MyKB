@@ -12,6 +12,7 @@ concept_lagopus_lagopus <-rrel_key_sc_element:...
 *);;
 *);;
 
+concept_animalia -> concept_lagopus_lagopus;;
 concept_species -> concept_lagopus_lagopus;;
 subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_lagopus_lagopus;;
 nrel_upload_date -> ...

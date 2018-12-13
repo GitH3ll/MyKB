@@ -1,19 +1,20 @@
-concept_ficedula_albicollis_temminck=> nrel_main_idtf: [мухоловка-белошейка](*<- lang_ru;;*); [ficedula albicollis temminck](*<- lang_lat;;*); [валасяніца-белашыйка](*<- lang_bel;;*);;
-concept_ficedula_albicollis_temminck => nrel_idtf: [мухалоўка-белашыйка](*<- lang_bel;;*);;
+concept_ficedula_albicollis=> nrel_main_idtf: [мухоловка-белошейка](*<- lang_ru;;*); [ficedula albicollis temminck](*<- lang_lat;;*); [валасяніца-белашыйка](*<- lang_bel;;*);;
+concept_ficedula_albicollis => nrel_idtf: [мухалоўка-белашыйка](*<- lang_bel;;*);;
 
-concept_ficedula_albicollis_temminck <-rrel_key_sc_element:...
+concept_ficedula_albicollis <-rrel_key_sc_element:...
 (*
 <-illustration;;
 =>nrel_main_idtf:
 [Рис. (мухоловка-белошейка)](*<-lang_ru;;*);;
 <=nrel_sc_text_translation:...
 (*
-->"file://concept_ficedula_albicollis_temminck.jpg"(*=>nrel_format:format_jpg;;*);;
+->"file://concept_ficedula_albicollis.jpg"(*=>nrel_format:format_jpg;;*);;
 *);;
 *);;
 
-concept_species -> concept_ficedula_albicollis_temminck;;
-subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_ficedula_albicollis_temminck;;
+concept_animalia -> concept_ficedula_albicollis;;
+concept_species -> concept_ficedula_albicollis;;
+subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_ficedula_albicollis;;
 nrel_upload_date -> ...
 	(*
 	-> rrel_1: Red_list;; 
@@ -22,7 +23,7 @@ nrel_upload_date -> ...
 	*);;
 
 //пояснения
-concept_ficedula_albicollis_temminck <- rrel_key_sc_element:
+concept_ficedula_albicollis <- rrel_key_sc_element:
 	...
 	(*
 	<- explanation;;
@@ -105,7 +106,7 @@ concept_ficedula_albicollis_temminck <- rrel_key_sc_element:
 	*);;
 
 //характеристики
-concept_ficedula_albicollis_temminck <= nrel_spread: ... 
+concept_ficedula_albicollis <= nrel_spread: ... 
 	(*
     <= nrel_combination: ... 
 		(*
@@ -113,7 +114,7 @@ concept_ficedula_albicollis_temminck <= nrel_spread: ...
 		*);;
 	*);;
 //части тела
-concept_ficedula_albicollis_temminck => nrel_part: 
+concept_ficedula_albicollis => nrel_part: 
 	...
 	(*
 	<= nrel_inclusion: concept_beak; black;;
@@ -139,7 +140,7 @@ concept_ficedula_albicollis_temminck => nrel_part:
 	<= nrel_inclusion: concept_legs; grey; black;;
 	*);;
 //размеры и вес
-concept_ficedula_albicollis_temminck <= nrel_inclusion: 
+concept_ficedula_albicollis <= nrel_inclusion: 
 	[0-13 см]
 	(*
 	<- interval_value;;
@@ -161,8 +162,8 @@ concept_ficedula_albicollis_temminck <= nrel_inclusion:
 	[0.016 кг] <- weight; exact_value;;
 	[0.016 кг] -> .kilogram: 0.016 (* <- number;;*);;
 //категория охраны и количество
-concept_ficedula_albicollis_temminck <= nrel_inclusion: concept_4_protection_category;;
-concept_ficedula_albicollis_temminck <= nrel_strength: [8000 шт]
+concept_ficedula_albicollis <= nrel_inclusion: concept_4_protection_category;;
+concept_ficedula_albicollis <= nrel_strength: [8000 шт]
 	(*
 	<- value;;
 	<= nrel_value: ...

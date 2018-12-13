@@ -1,27 +1,28 @@
-concept_acrocephalus_paludicola_linnaeus=> nrel_main_idtf: [вертлявая камышевка](*<- lang_ru;;*); [acrocephalus paludicola linnaeus](*<- lang_lat;;*); [вяртлявая чарацянка](*<- lang_bel;;*);;
+concept_acrocephalus_paludicola=> nrel_main_idtf: [вертлявая камышевка](*<- lang_ru;;*); [acrocephalus paludicola linnaeus](*<- lang_lat;;*); [вяртлявая чарацянка](*<- lang_bel;;*);;
 
-concept_acrocephalus_paludicola_linnaeus <-rrel_key_sc_element:...
+concept_acrocephalus_paludicola <-rrel_key_sc_element:...
 (*
 <-illustration;;
 =>nrel_main_idtf:
 [Рис. (вертлявая камышевка)](*<-lang_ru;;*);;
 <=nrel_sc_text_translation:...
 (*
-->"file://concept_acrocephalus_paludicola_linnaeus.jpg"(*=>nrel_format:format_jpg;;*);;
+->"file://concept_acrocephalus_paludicola.jpg"(*=>nrel_format:format_jpg;;*);;
 *);;
 *);;
 
-concept_species -> concept_acrocephalus_paludicola_linnaeus;;
-subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_acrocephalus_paludicola_linnaeus;;
+concept_animalia -> concept_acrocephalus_paludicola;;
+concept_species -> concept_acrocephalus_paludicola;;
+subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_acrocephalus_paludicola;;
 nrel_upload_date -> ...
 	(*
 	-> rrel_1: Red_list;; 
-	-> rrel_2: concept_acrocephalus_paludicola_linnaeus;;
+	-> rrel_2: concept_acrocephalus_paludicola;;
 	-> rrel_3: ... (*-> rrel_number_of_year: 1993 (*<- number;;*);;*);;
 	*);;
 
 //пояснения
-concept_acrocephalus_paludicola_linnaeus <- rrel_key_sc_element:
+concept_acrocephalus_paludicola <- rrel_key_sc_element:
 	...
 	(*
 	<- explanation;;
@@ -104,7 +105,7 @@ concept_acrocephalus_paludicola_linnaeus <- rrel_key_sc_element:
 	*);;
 
 //характеристики
-concept_acrocephalus_paludicola_linnaeus <= nrel_spread: ... 
+concept_acrocephalus_paludicola <= nrel_spread: ... 
 	(*
     <= nrel_combination: ... 
 		(*
@@ -112,7 +113,7 @@ concept_acrocephalus_paludicola_linnaeus <= nrel_spread: ...
 		*);;
 	*);;
 //части тела
-concept_acrocephalus_paludicola_linnaeus => nrel_part: 
+concept_acrocephalus_paludicola => nrel_part: 
 	...
 	(*
 	<= nrel_inclusion: concept_sharp; concept_beak; yellow; grey;;
@@ -138,7 +139,7 @@ concept_acrocephalus_paludicola_linnaeus => nrel_part:
 	<= nrel_inclusion: concept_legs; grey; yellow;;
 	*);;
 //размеры и вес
-concept_acrocephalus_paludicola_linnaeus <= nrel_inclusion: 
+concept_acrocephalus_paludicola <= nrel_inclusion: 
 	[0-13 см]
 	(*
 	<- interval_value;;
@@ -160,8 +161,8 @@ concept_acrocephalus_paludicola_linnaeus <= nrel_inclusion:
 	[0.013 кг] <- weight; exact_value;;
 	[0.013 кг] -> .kilogram: 0.013 (* <- number;;*);;
 //категория охраны и количество
-concept_acrocephalus_paludicola_linnaeus <= nrel_inclusion: concept_2_protection_category;;
-concept_acrocephalus_paludicola_linnaeus <= nrel_strength: [20000 шт]
+concept_acrocephalus_paludicola <= nrel_inclusion: concept_2_protection_category;;
+concept_acrocephalus_paludicola <= nrel_strength: [20000 шт]
 	(*
 	<- value;;
 	<= nrel_value: ...

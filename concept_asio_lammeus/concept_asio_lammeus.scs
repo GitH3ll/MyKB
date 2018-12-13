@@ -11,6 +11,7 @@ concept_asio_flammeus <-rrel_key_sc_element:...
 *);;
 *);;
 
+concept_animalia -> concept_asio_flammeus;;
 concept_species -> concept_asio_flammeus;;
 subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_asio_flammeus;;
 nrel_upload_date -> ...

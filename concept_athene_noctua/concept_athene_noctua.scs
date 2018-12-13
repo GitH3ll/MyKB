@@ -12,6 +12,7 @@ concept_athene_noctua <-rrel_key_sc_element:...
 *);;
 *);;
 
+concept_animalia -> concept_athene_noctua;;
 concept_species -> concept_athene_noctua;;
 subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_athene_noctua;;
 nrel_upload_date -> ...

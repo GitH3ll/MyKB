@@ -11,6 +11,7 @@ concept_tyto_alba <-rrel_key_sc_element:...
 *);;
 *);;
 
+concept_animalia -> concept_tyto_alba;;
 concept_species -> concept_tyto_alba;;
 subject_domain_of_aves -> rrel_not_maximum_studied_object_class: concept_tyto_alba;;
 nrel_upload_date -> ...
